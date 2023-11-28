@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+      <!-- Skjema for ulik informasjon -->
+    <div class="formBtnDiv">
+
+        <form id="infoForm">
+            <label for="name">Navn:</label>
+            <input type="text" id="nameInput" required>
+            
+            <label for="email">E-post:</label>
+            <input type="email" id="emailInput" required>
+            
+            <label for="age">Alder:</label>
+            <input type="number" id="ageInput" required>
+            
+            <label for="land">Land:</label>
+            <input type="text" id="landInput" required>
+            
+        </form>
+        <button class="btn" type="button" onclick="submitInfo()">Send Informasjon</button>
+    </div>
+
+  <!-- Vis postet informasjon -->
+  <div id="output"></div>
+</body>
+</html>
+
+<!-- Hei!
+Vi at dere skal levere svaret på følgende oppgaver:
+
+1. Lag et input som tar i mot et navn, og en submit knapp som poster navnet på nettsiden din
+2. Lag flere input som tar i mot ulik informasjon, og en submit knapp som poster informasjonen på nettsiden din.
+
+
+create an input that takes a name and a submit button that posts name on the website
+
+create multuble inputs that accepts different information and a submit button that posts the information to the website  -->

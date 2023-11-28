@@ -1,0 +1,25 @@
+#output {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#infoForm {
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formBtnDiv {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.btn {
+ margin-left: 20px;
+ margin-top: 70px;
+}
